@@ -21,3 +21,18 @@ header, main, footer {
 h1, h2 {
     color: #0056b3; /* Blue headings for emphasis */
 }
+
+a {
+    color: #0056b3; /* Blue links for visibility */
+    text-decoration: none;
+}
+
+a:focus, button:focus {
+    outline: 2px solid #ffbf00; /* Yellow outline for focus states */
+    outline-offset: 2px;
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* Ensures images scale properly */
+}
