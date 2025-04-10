@@ -36,3 +36,19 @@ img {
     max-width: 100%;
     height: auto; /* Ensures images scale properly */
 }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666; /* Light gray for footer text */
+}
