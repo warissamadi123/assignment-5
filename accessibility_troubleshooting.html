@@ -2,7 +2,7 @@
     Name: Waris Samadi
     File: accessibility.html
     Date: 2025-04-09
-   description of the file: This file contains the initial structure for the Accessibility Troubleshooting tutorial.
+     description of the file: This file contains the initial structure for the Accessibility Troubleshooting tutorial.
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -13,16 +13,21 @@
 <body>
     <header>
         <h1>Accessibility Troubleshooting</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#footer">Footer</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <p>This page is part of the Accessibility Troubleshooting tutorial.</p>
-        <section>
+        <section id="section1" aria-label="Example Section">
             <h2>Section 1: Example Content</h2>
             <p>Some example content for accessibility testing.</p>
-            <img src="example.jpg" alt="Example image">
+            <img src="example.jpg" alt="A detailed description of the example image">
         </section>
     </main>
-    <footer>
+    <footer id="footer">
         <p>&copy; 2023 Accessibility Tutorial</p>
     </footer>
 </body>
